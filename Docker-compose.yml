@@ -1,0 +1,8 @@
+version: '3.09'
+services:
+  python-app:
+    image: docker-server
+    ports:
+      - 8000:8000
+    networks:
+      - default
